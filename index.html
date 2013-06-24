@@ -1,13 +1,17 @@
 ---
-layout: default
+layout: home
 title: Written Software
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+<div id="logo-large">
+  Written 
+  Software
+</div>
+
+<div class="lead" id="logo-sub">
+  A tiny software shop in NYC
+</div>
+
+<div class="blog-link">
+  <a href="/posts.html">head to blog &raquo;</a>
 </div>

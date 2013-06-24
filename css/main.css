@@ -168,3 +168,36 @@ ul.posts span {
 span.name-wrap {
   font-size: 11px;
 }
+
+#logo,  #logo-large {
+  font-family: "open sans", sans-serif;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 142%;
+}
+
+#logo-large {
+  margin-top: 82px;
+}
+
+#logo-large {
+  font-size: 69px;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.blog-link {
+  margin-bottom: 100px;
+}
+
+.blog-link, #logo-sub {
+  text-align: center;
+}
+
+#logo-sub {
+  font-size: 20px;
+  font-family: "open sans", sans-serif;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 12px;
+}
