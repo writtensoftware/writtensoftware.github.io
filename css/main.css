@@ -166,7 +166,7 @@ ul.posts span {
 
 
 span.name-wrap {
-  font-size: 11px;
+
 }
 
 #logo,  #logo-large {
@@ -200,4 +200,20 @@ span.name-wrap {
   font-weight: 600;
   color: #222;
   margin-bottom: 12px;
+}
+
+.legal {
+  color: #666;
+  padding-top: 20px;
+  border-top: 4px solid #eee;
+  margin-top: 40px;
+  font-size: 12px;
+}
+
+.legal h4 {
+  
+}
+
+.legal .company-name {
+  font-weight: bold; 
 }
