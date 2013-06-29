@@ -217,3 +217,14 @@ span.name-wrap {
 .legal .company-name {
   font-weight: bold; 
 }
+
+.pull-text {
+  text-decoration: underline;
+}
+
+
+.app-link, .site .header a.extra.app-link {
+  font-size: 13px;
+  float: right;
+  color: #51a351;
+}
