@@ -21,7 +21,7 @@ This is a brief post that I thought would be relevant to many Ruby developers si
       end
     end
 
-That's it. What we've done is create a "Configuration" class that delegates all method calls to a hidden static OpenStruct member. You can now cleanly set and read your global config flags like so:
+That's it. What we've done is create a "Configuration" class that delegates all method calls to a hidden static OpenStruct (@@config). You can now cleanly set and read your global config flags like so:
 
     SomeApp::Configuration.api_key = "some value"
 
