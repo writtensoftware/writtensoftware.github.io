@@ -1,0 +1,24 @@
+body {
+  text-align: center;
+}
+
+#logo-link {
+  display: block;
+  margin: 164px auto;
+  width: 280px;
+  -webkit-transition: all .7s ease-in-out;
+}
+
+@media (max-width: 719px) {
+  #logo-link {
+    margin-top: 110px;
+  }
+}
+
+#logo-link:hover { 
+  -webkit-transform: scale(1.11); 
+}
+
+#logo-img {
+  width: 100%;
+}
