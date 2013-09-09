@@ -72,6 +72,6 @@ $(function(){
       $(".cityscape").fadeIn(4000);
       setupGeometry();
       restartAnimation();      
-    }, 6000)
+    }, 4800)
   }
 });
