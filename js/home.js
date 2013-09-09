@@ -3,7 +3,7 @@ $(function(){
     var carStart, carEnd, planeStart, planeEnd;
 
     var carAnimationTime = 60000;
-    var carLeftAnimationTime = 31000;
+    var carLeftAnimationTime = 32000;
     var planeAnimationTime = 75000;
     var plane2AnimationTime = 40000;
 
