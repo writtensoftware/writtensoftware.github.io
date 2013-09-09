@@ -1,5 +1,5 @@
 $(function(){
-  if ($("body.home").length > 0){
+  if ($("body.home").length > 0 && !(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))) {
     var carStart, carEnd, planeStart, planeEnd;
 
     var carAnimationTime = 60000;
