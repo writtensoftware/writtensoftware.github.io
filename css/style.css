@@ -58,7 +58,7 @@ html, body {
 
 #liberty {
   position: absolute;
-  left: 80px;
+  left: 110px;
   height: 198px;
   top: 20px;
 } 
@@ -74,7 +74,7 @@ html, body {
 
 #buildings {
   position: absolute;
-  right: 80px;
+  right: 110px;
   height: 212px;
   top: 7px;  
 }
